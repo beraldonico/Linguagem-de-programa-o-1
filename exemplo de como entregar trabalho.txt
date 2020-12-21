@@ -1,0 +1,31 @@
+   // FILE:          Ex_01_en.c
+   // TITLE:         My first program in C
+   // SUBMITTED BY:  Student Name
+   //                All code is my own except where credited to others.
+   // FOR COURSE:    Programming I
+   // DUE DATE:      August 21, 2015
+   //
+   // PURPOSE:
+   // This program will print one text line "Hello, World!"
+   //
+   // OVERALL METHOD:
+   // The list of general tasks is:
+   // 1. Print text
+   //
+   // FUNCTIONS: none
+   //
+   // INCLUDED FILES:
+   //    stdio.h
+   //
+   // DATA FILES:  none
+
+
+#include <stdio.h>// biblioteca de entrada e saída
+                  //permite que o programa gere saída de dados na tela
+// a função main inicia a execução do programa
+int main() // main - a função principal do programa
+{ // inicio da função main
+  printf("Hello, \n World! \n"); // exibe a mensagem
+  return 0; // indica que o programa terminou com sucesso
+
+} // fim da função main
